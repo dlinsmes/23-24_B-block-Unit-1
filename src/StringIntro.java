@@ -59,7 +59,7 @@ public class StringIntro {
         //concatenate (add) strings together with a +
         System.out.println("my name is " + name);
 
-        //when referencing/or changing an existing variable
+        //when referencing/ changing an existing variable
         //you DON'T redeclare it (don't say String again)
         name = "something else";
 
