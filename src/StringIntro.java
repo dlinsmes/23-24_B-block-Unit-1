@@ -66,7 +66,7 @@ public class StringIntro {
         System.out.println("now my name is " + name);
 
         String friendName = "joe";
-        //car names can't have spaces so the convention is
+        //var names can't have spaces so the convention is
         //to use camelCase - lowercase first letter, then
         //uppercase first letters of any following words
         String lotsOfWords = "my friend's name is " + friendName;

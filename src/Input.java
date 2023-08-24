@@ -10,7 +10,7 @@ public class Input {
         String lunch = "chicken tenders";
 
         //concatenate (join) strings together in a print statement
-        System.out.println("Today I had " + lunch + " for lunch today");
+        System.out.println("I had " + lunch + " for lunch today");
 
         //set up a Scanner called input that allows keyboard input
         Scanner input = new Scanner(System.in);
