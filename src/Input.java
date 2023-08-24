@@ -24,6 +24,6 @@ public class Input {
 
         System.out.println("how was your day?");
         String day = input.nextLine();
-        System.out.println("your day was " + day);
+        System.out.println("Your day was " + day);
     }
 }

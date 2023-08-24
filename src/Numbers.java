@@ -24,7 +24,7 @@ public class Numbers {
         // * multiplication
         // % modulo (mod) - remainder after division
 
-        System.out.println("8 mod 5 is " + 8%5);
+        System.out.println("13 mod 5 is " + 13%5);
 
         System.out.println("num is " + num);
 
