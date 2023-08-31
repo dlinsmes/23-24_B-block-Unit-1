@@ -91,7 +91,7 @@ public class CashRegister {
         System.out.println(q + " $20 bills");
 
         amt = amt % 20;
-        q = (int) amt / 10;
+        q = (int) amt/10;
         System.out.println(q + " $10 bills");
 
         amt = amt % 10;
