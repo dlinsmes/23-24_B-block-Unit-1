@@ -108,7 +108,24 @@ public class CashRegister {
 
         //try 157.98 as an initial amt and check the coin quantities
 
+        //convert cents to whole number, then round
+        int cents = (int)(amt*100 + .5);
+        System.out.println("cents: " + cents);
 
+        q = cents/25;
+        System.out.println(q + " quarters");
+
+        cents = cents % 25;
+        q = cents / 10;
+        System.out.println(q + " dimes");
+
+        cents = cents % 10;
+        q = cents / 5;
+        System.out.println(q + " nickels");
+
+        cents = cents % 5;
+        q = cents;
+        System.out.println(q + " pennies");
 
 
 
