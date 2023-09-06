@@ -92,7 +92,7 @@ public class Booleans {
         b = word3.equals("apple");
 
         // ! - negation - NOT - evaluate the opposite expression
-        b = !(x < 7); //same as x >= 7)
+        b = !(x < 7); //same as x >= 7
 
         //opposite of < is >=
         //opposite of > is <=
@@ -124,8 +124,8 @@ public class Booleans {
 
         //DeMorgan's Law
         //A and B are boolean expressions
-        //!(A and B) is the same as (!A || !B)
-        //!(A or B) is the same as (!A && !B)
+        //!(A and B) is the same as (!A or !B)
+        //!(A or B) is the same as (!A and !B)
         //distribute the negation to each expression and flip and/or
 
         b = ! (x < 12 && x % 3 == 0);
